@@ -13,6 +13,7 @@ app.use(express.json());
 
 //routes
 app.use("/api/auth", require("./routes/authRoutes.js"));
+app.use("/api/products", require("./routes/productRoutes.js"));
 
 
 
